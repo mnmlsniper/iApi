@@ -1,0 +1,6 @@
+{
+"reporterEnabled":  "allure-mocha",
+"allure-mocha": {
+    "allure-results": "./allure-results"
+}
+}

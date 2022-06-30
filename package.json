@@ -1,0 +1,29 @@
+{
+  "name": "cosmicqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config .mocharc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7",
+    "@faker-js/faker": "^7.2.0",
+    "ajv": "^8.11.0",
+    "allure-mocha": "^2.0.0-beta.17",
+    "chai": "^4.3.6",
+    "got": "^11.8.5",
+    "mocha": "^10.0.0",
+    "mocha-multi-reporters": "^1.5.1",
+    "node-fetch": "^2.6.7",
+    "pino": "^8.1.0",
+    "pino-pretty": "^8.1.0",
+    "response-openapi-validator": "^1.2.0",
+    "supertest": "^6.2.3"
+  }
+}
