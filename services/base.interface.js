@@ -84,7 +84,6 @@ export class JsonRequest extends BaseHttpRequest {
     }
 
      body(body)  {
-       // console.log(body);
         this.options.json = body;
         return this;
     }
